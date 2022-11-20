@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+    testing:
+        build:
+            context: .
+            dockerfile: Dockerfile
+            target: testing
+        image: mysql-testing
+        container_name: mysql-testing
