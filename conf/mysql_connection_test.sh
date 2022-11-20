@@ -1,3 +1,3 @@
 #!/bin/sh
 
-mysql -uroot -pmysql_test mysql_test
+mysql -umysql_test -pmysql_test mysql_test
